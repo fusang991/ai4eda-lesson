@@ -16,6 +16,7 @@ export default defineConfig({
           { text: '第三部分：APR Placement', link: '/part3/' },
           { text: '第四部分：APR CTS', link: '/part4/' },
           { text: '第五部分：Route与综合', link: '/part5/' },
+          { text: '第六部分：Paper阅读与复现', link: '/part6/' },
         ]
       }
     ],
@@ -81,6 +82,19 @@ export default defineConfig({
           { text: '5.5 逻辑综合与深度学习', link: '/part5/logic-synthesis' },
           { text: '5.6 Transformer模型', link: '/part5/transformer' },
           { text: '5.7 上机实验', link: '/part5/lab' },
+        ]
+      },
+      {
+        text: '第六部分：Paper阅读与复现',
+        collapsed: false,
+        items: [
+          { text: '概述', link: '/part6/' },
+          { text: '6.1 DRiLLS: 强化学习逻辑综合', link: '/part6/drills' },
+          { text: '6.2 DREAMPlace: 深度学习布局', link: '/part6/dreamplace' },
+          { text: '6.3 AlphaChip: GNN+RL布局', link: '/part6/alphachip' },
+          { text: '6.4 GNN时序预测', link: '/part6/gnn-timing' },
+          { text: '6.5 RouteNet: CNN拥塞预测', link: '/part6/routenet' },
+          { text: '6.6 IR Drop: Inception CNN', link: '/part6/irdrop' },
         ]
       }
     ],
